@@ -26,7 +26,7 @@ int64_t OmniGetDustThreshold(const CScript& scriptPubKey)
 {
     CTxOut txOut(0, scriptPubKey);
 
-    return GetDustThreshold(txOut, minRelayTxFee) * 3;
+    return GetDustThreshold(txOut, minRelayTxFee) * 30;
 }
 
 /**
