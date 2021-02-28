@@ -299,12 +299,12 @@ void BitcoinGUI::createActions()
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(historyAction);
 
-    balancesAction = new QAction(platformStyle->SingleColorIcon(":/icons/balances"), tr("&Balances"), this);
-    balancesAction->setStatusTip(tr("Show Omni Layer balances"));
-    balancesAction->setToolTip(balancesAction->statusTip());
-    balancesAction->setCheckable(true);
-    balancesAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
-    tabGroup->addAction(balancesAction);
+    toolboxAction = new QAction(platformStyle->SingleColorIcon(":/icons/tools"), tr("&Toolbox"), this);
+    toolboxAction->setStatusTip(tr("Tools to obtain varions Omni Layer information and transaction information"));
+    toolboxAction->setToolTip(toolboxAction->statusTip());
+    toolboxAction->setCheckable(true);
+    toolboxAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
+    tabGroup->addAction(toolboxAction);
 
 #ifdef ENABLE_WALLET
     // These showNormalIfMinimized are needed because Send Coins and Receive Coins
@@ -574,7 +574,7 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(sendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
         toolbar->addAction(historyAction);
-        toolbar->addAction(balancesAction);
+        toolbar->addAction(toolboxAction);
         overviewAction->setChecked(true);
 
 #ifdef ENABLE_WALLET
