@@ -59,7 +59,7 @@ This software is EXPERIMENTAL software. USE ON MAINNET AT YOUR OWN RISK.
 
 By default this software will use your existing Litecoin wallet, including spending litecoins contained therein (for example for transaction fees or trading).
 The protocol and transaction processing rules for the Omni Layer are still under active development and are subject to change in future.
-OmniLite should be considered an beta product, and you use it at your own risk. Neither the Litecoin Developers, Omni Foundation nor the OmniLite developers assumes any responsibility for funds misplaced, mishandled, lost, or misallocated.
+OmniLite should be considered a beta product, and you use it at your own risk. Neither the Litecoin Developers, Omni Foundation nor the OmniLite developers assumes any responsibility for funds misplaced, mishandled, lost, or misallocated.
 
 Further, please note that this installation of OmniLite should be viewed as EXPERIMENTAL. Your wallet data, litecoins and Omni Layer tokens may be lost, deleted, or corrupted, with or without warning due to bugs or glitches. Please take caution.
 
